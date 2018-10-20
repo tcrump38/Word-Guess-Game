@@ -1,0 +1,9 @@
+body {
+    color: #dddddd;
+    background-color: #4aaaa5;
+}
+
+.jumbotron {
+    background: url("../images/footballstadium.jpg");
+    background-size: cover;
+}
