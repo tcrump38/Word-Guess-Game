@@ -6,72 +6,70 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href = "assets/css/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Emblema+One" rel="stylesheet">
 </head>
 <body>
    
-            <div class="jumbotron">
-                <div class="row" >
-                    <div class="col-4 py-3">
-                        <img class="img-fluid" src="assets/images/big12.jpg" alt="big 12 conference logo">
+<div class="jumbotron">
+    <div class="row" >
+        <div class="col-4 py-3">
+            <img class="img-fluid" src="assets/images/big12.jpg" alt="big 12 conference logo">
+        </div>
+        <div class="col-4 py-5 text-center">
+            <h1>Word Guess Game:</h1><p>Guess NCAA Football, Big 12 Conference Teams</p>
+            <button id="new-game-button">
+                <i class="fas fa-football-ball"></i>
+                Start New Game
+            </button>
+        </div>
+        <div class="col-4 py-3">
+            <img class="img-fluid" src="assets/images/big12.jpg" alt="big 12 conference logo">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row top-row">
+        <div class="col-12 text-center py-5" id="placeholder-section">
+                <div class="row">
+                    <div class="col-12 col-md-6 my-4">
+                        <h2>Guess Letters!
+                        <br>
+                        <span id ="placeholders">_ _ _ _ _ _ _ _ _</span>
+                        </h2>
                     </div>
-                    <div class="col-4 py-5 text-center">
-                        <h1>Word Guess Game:</h1><p>Guess NCAA Football, Big 12 Conference Teams</p>
-                        <button id="new-game-button">
-                            <i class="fas fa-football-ball"></i>
-                            Start New Game
-                        </button>
-                    </div>
-                    <div class="col-4 py-3">
-                        <img class="img-fluid" src="assets/images/big12.jpg" alt="big 12 conference logo">
+                    <div class="col-12 col-md-6 my-4">
+                        <h2>Wrong Letter Bank:
+                        <br>
+                        <span id="guessed-letters"></span>
+                        </h2>
                     </div>
                 </div>
-            </div>
-
-
-
-
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 text-center py-5" id="placeholder-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 my-2">
-                            <h2>Guess Letters!
-                            <br>
-                            <span id ="placeholders">_ _ _ _ _ _ _ _ _</span>
-                            </h2>
-                        </div>
-                        <div class="col-12 col-md-6 my-2">
-                            <h2>Wrong Letter Bank:
-                            <br>
-                            <span id="guessed-letters"></span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
-        <div class="row">
-            <div class="col-12 cold-md-4 text-center py-2">
-                <h3>
-                    <i class="far fa-hand-point-right px-2"></i>Guesses Left: <span id="guesses-left">0</span>
-                </h3>
-            </div>
-            <div class="col-12 cold-md-4 text-center py-2">
-                <h3>
-                    <i class="fas fa-bullhorn px-2"></i>Wins: <span id="wins">0</span>
-                </h3>
-            </div>
-            <div class="col-12 cold-md-4 text-center py-2">
-                <h3>
-                    <i class="fas fa-bullhorn px-2"></i>Losses: <span id="losses">0</span>
-                </h3>
-            </div>
-        </div>
+    </div>
 
+
+    <div class="row bottom-row">
+        <div class="col-lg-3 cold-md-4 text-center">
         </div>
+        <div class="col-lg-4 cold-md-4 text-center">
+        </div>
+        <div class="col-lg-4 cold-md-4 text-center py-4">
+            <h3>
+                <i class="far fa-hand-point-right px-2"></i>Guesses Left: <span id="guesses-left">0</span>
+            </h3>
+            <h3>
+                <i class="fas fa-bullhorn px-2"></i>Wins: <span id="wins">0</span>
+            </h3>
+            <h3>
+                <i class="fas fa-bullhorn px-2"></i>Losses: <span id="losses">0</span>
+            </h3>
+        </div>
+       
+       
+    </div>
+</div>
 
 
 

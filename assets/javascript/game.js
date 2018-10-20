@@ -1,4 +1,4 @@
-    // DOM
+    // HTML
     var $newGameButton = document.getElementById('new-game-button');
     var $placeholders = document.getElementById('placeholders');
     var $guessedLetters = document.getElementById('guessed-letters');

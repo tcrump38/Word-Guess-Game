@@ -1,9 +1,43 @@
 body {
-    color: #dddddd;
-    background-color: #4aaaa5;
+    color: gray;
+    background-color:  rgb(124, 53, 32);
 }
 
 .jumbotron {
     background: url("../images/footballstadium.jpg");
     background-size: cover;
 }
+
+h1 {
+    color: rgba(227, 227, 253, 0.904);
+    font-family: 'Emblema One', cursive;
+    margin-top: -6rem;
+}
+
+p {
+    color:  rgb(252, 241, 229);
+    font-family: 'Emblema One', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 8rem;
+}
+
+.top-row {
+    background-color: rgb(124, 53, 32);
+}
+
+.bottom-row {
+    background-color: rgb(78, 44, 21);
+}
+
+.fa-bullhorn {
+    color: white;
+}
+
+.fa-hand-point-right {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
